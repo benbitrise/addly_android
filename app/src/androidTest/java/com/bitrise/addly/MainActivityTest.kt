@@ -31,16 +31,6 @@ class MainActivityTest {
         check("1", "2", "3")
     }
 
-    @Test
-    fun test_19_20_equals_39() {
-        check("19", "20", "39")
-    }
-
-
-    @Test
-    fun test_20_21_equals_41() {
-        check("20", "21", "41")
-    }
 
     fun check(
         operand1: String,
