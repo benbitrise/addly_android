@@ -48,9 +48,9 @@ class MainActivityTest {
         sum: String
     ) {
         composeTestRule.onNodeWithTag("Operand 1")
-            .performTextInput(operand1)
+            .performTextReplacement(operand1)
         composeTestRule.onNodeWithTag("Operand 2")
-            .performTextInput(operand2)
+            .performTextReplacement(operand2)
         composeTestRule.onNodeWithTag("sum")
             .assertTextEquals(sum)
     }
