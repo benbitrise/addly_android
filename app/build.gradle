@@ -7,7 +7,7 @@ android {
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.bitrise.ddgmobile"
+        applicationId "com.bitrise.addly"
         minSdk 30
         targetSdk 33
         versionCode 1
